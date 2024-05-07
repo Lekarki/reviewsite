@@ -18,13 +18,36 @@ body {
 }
 
 
+
+.logo {
+
+    padding: 1em;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    
+}
+
+.flex-container {
+
+    flex-direction: row;
+    display: flex;
+    
+}
+
+
 .h1 {
-    text-align: center;
+    
     text-transform: uppercase;
     color: var(--text);
     font-size: xx-large;
     font-style: normal;
     text-shadow: 3px 4px 4px var(--primary);
+    position: relative;
+    margin-left: 35%;
+    margin-right: 35%;
+    
+   
 }
 
 .footer{
@@ -80,3 +103,5 @@ body {
         transition:0.4s;
       }
     
+
+     
