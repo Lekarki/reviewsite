@@ -80,6 +80,7 @@ body {
     padding: 0px;
     }
     
+
     .footer .row ul li{
     display:inline-block;
     margin:0px 20px;
@@ -102,6 +103,4 @@ body {
         box-shadow: 0 0 2px 2px white;
         transition:0.4s;
       }
-    
-
      
