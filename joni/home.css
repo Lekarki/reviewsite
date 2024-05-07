@@ -1,6 +1,9 @@
 body {
+    margin:0;
+    overflow-x:hidden;
     background-color: black;
 }
+
 
 .h1 {
     text-align: center;
@@ -8,3 +11,57 @@ body {
     color: white;
     font-size: xx-large;
 }
+
+.footer{
+    background:black;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    }
+    
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:1em;
+    }
+    
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+    .footer .row a:hover{
+    color:white;
+    }
+    
+    .footer .row ul{
+    width:100%;
+    padding: 0px;
+    }
+    
+    .footer .row ul li{
+    display:inline-block;
+    margin:0px 20px;
+    }
+    
+    
+    .footer_logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border: 1px solid gray;
+        border-radius: 2px;
+        padding: 5px;
+        width: fit-content;
+        height: fit-content;
+      }
+
+      .footer_logo:hover {
+        box-shadow: 0 0 2px 2px white;
+        transition:0.4s;
+      }
+    
