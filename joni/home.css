@@ -27,6 +27,7 @@ body {
     position: absolute;
 }
 /*upper_belt*/
+
 .flex-container1 {
 
     flex-direction: row;
@@ -83,6 +84,7 @@ span {
 .footer{
     background:black;
     padding:30px 0px;
+    
     font-family: 'Play', sans-serif;
     text-align:center;
     }
@@ -90,7 +92,7 @@ span {
     .footer .row{
     width:100%;
     margin:1% 0%;
-    padding:0.6% 0%;
+    padding:0.5% 0%;
     color:gray;
     font-size:1em;
     }
@@ -113,7 +115,7 @@ span {
 
     .footer .row ul li{
     display:inline-block;
-    margin:0px 20px;
+    margin:2px 20px;
     }
     
     
