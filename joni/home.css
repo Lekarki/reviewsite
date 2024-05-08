@@ -1,6 +1,7 @@
 /*fonts*/
 * {
     font-family: Ubuntu, sans-serif;
+    line-height: 1.5;
 }
 
 /*root_colors*/
@@ -155,7 +156,7 @@ span {
         color: white;
         display: flex;
         text-align: left;
-        max-width: 50%;
+        max-width: 100vmin;
         font-size: x-large;
         margin-bottom: 2em;
            
@@ -168,7 +169,7 @@ span {
         color: white;
         display: flex;
         text-align: center;
-        max-width: 75%;
+        max-width: 100vmin;
         font-size: xx-large;
 
 
