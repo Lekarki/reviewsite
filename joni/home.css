@@ -1,8 +1,9 @@
+/*fonts*/
 * {
     font-family: Ubuntu, sans-serif;
 }
 
-
+/*root_colors*/
 :root {
 --text: rgb(255, 255, 255);
 --background: rgb(10, 10, 10);
@@ -10,33 +11,33 @@
 --secondary: rgb(255, 255, 255);
 --accent: rgb(255, 212, 0);
 }
-
+/*full_body*/
 body {
     margin:0;
     overflow-x:hidden;
     background-color: var(--background);
 }
-
-
-
+/*upper_belt_logo
+<!--upper_belt_starts-->*/
 .logo {
     background-color:rgba(255, 255, 255, 0);
     padding: 5px 20px 20px 60px;
     width: 450px ;
     height: 150px;
     position: absolute;
-    
-    
-}
 
+}
+/*upper_belt*/
 .flex-container {
 
     flex-direction: row;
     display: flex;
-    
 }
+/*upper_belt
+<!--upper_belt_ends-->*/
 
 
+/*heading*/
 .h1 {
     
     text-transform: uppercase;
@@ -46,11 +47,40 @@ body {
     text-shadow: 3px 4px 4px var(--primary);
     position: relative;
     margin-left: 35%;
-    margin-right: 35%;
-    
-   
+    margin-right: 35%; 
+}
+/*welcome_text_section
+<!--heading2_and_paragraph1_starts-->*/
+.h2 {
+    color: var(--text);
+    text-align: center;
+    text-transform: uppercase;
 }
 
+.p1 {
+    color: var(--text);
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+.gridcontainer {
+    display: grid;
+    place-items: center;
+}
+
+#h2p1 {
+    width: 100%;
+    height: 15vmin;
+    background-color: black;
+}
+/*welcome_text_section
+<!--heading2_and_paragraph1_ends-->*/
+
+/*footer_section
+<!--footer_starts-->*/
 .footer{
     background:black;
     padding:30px 0px;
@@ -104,4 +134,5 @@ body {
         box-shadow: 0 0 2px 2px white;
         transition:0.4s;
       }
-     
+     /*footer_section
+     <!--footer_ends-->*/
