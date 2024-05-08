@@ -26,9 +26,8 @@ body {
     height: 150px;
     position: absolute;
 
-}
 /*upper_belt*/
-.flex-container {
+.flex-container1 {
 
     flex-direction: row;
     display: flex;
@@ -134,5 +133,50 @@ span {
         box-shadow: 0 0 2px 2px white;
         transition:0.4s;
       }
+
+
+      .flex-container2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+        
+    }
+    
+    .item {
+        flex: 1;
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        display: flex;
+        text-align: left;
+        max-width: 50%;
+        font-size: x-large;
+        margin-bottom: 2em;
+           
+    }
+
+    .item:nth-child(1)  {
+        flex: 1;
+        padding: 10px;
+        margin: 5px;
+        color: white;
+        display: flex;
+        text-align: center;
+        max-width: 75%;
+        font-size: xx-large;
+
+
+
+    }
+
+
+
+     
+
      /*footer_section
      <!--footer_ends-->*/
+
