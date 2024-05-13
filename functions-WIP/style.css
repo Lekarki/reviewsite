@@ -1,24 +1,42 @@
-
+* {
+    font-family: 'Courier New', Courier, monospace
+    
+}
 
 body {
     background-color: black;
     margin: 0px;
     height: 100vh;
-    display: grid;
+    
+    color: white;
 
 }
 
+.mid-container {
+    background-color: rgba(0, 255, 0, 0.3);
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    
+}
+
+.textright {
+    background-color: rgba(0, 0, 255, 0.5);
+    margin: 5% 15%;
+    font-size: 3vmin;
+}
 .card-group {
     background-color: rgba(255, 0, 0, 0.5);
     aspect-ratio: 2 / 3;
     width: 20vmin;
-    margin-top: 5vmin;
+    margin-top: 10vmin;
     margin-left: 5vmin;
+    margin-right: 5vmin;
 }
 
 .sidebar {
     background-color: rgba(255, 255, 255, 0.1);
-    display: grid;
     width: 30vmin;
 }
 
