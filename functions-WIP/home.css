@@ -197,7 +197,9 @@ span {
     .sidebar {
         background-color: rgba(255, 255, 255, 0.1);
         display: grid;
-        width: 30vmin;
+        grid-template-columns: 4;
+        grid-template-rows: 3;
+        width: 100%;
     }
     
     .card-big {
