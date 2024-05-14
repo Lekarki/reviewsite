@@ -29,40 +29,36 @@
 }
 /*upper_belt_logo
 <!--upper_belt_starts-->*/
-        .logo {
-
-        background-color:rgba(255, 255, 255, 0);
-        padding: 5px 20px 20px 60px;
-        width: 450px ;
-        height: 150px;
-        position: absolute;
-
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-/*upper_belt*/
-
-        .flex-container1 {
-
-        flex-direction: row;
-        display: flex;
-        
+.logo {
+flex: 30%;
+max-width: 30%;
+/* background-color:rgba(255, 255, 255, 0.4); */
+padding: 15px 0px 0px 30px;
+width: 450px ;
+height: 150px;
 }
-/*upper_belt
-<!--upper_belt_ends-->*/
-
-
-/*heading*/
 .h1 {
-    
-    text-transform: uppercase;
-    color: var(--text);
-    font-size: xx-large;
-    font-style: normal;
-    text-shadow: 3px 4px 4px var(--primary);
-    position: relative;
-    margin-left: 35%;
-    margin-right: 35%; 
-
+flex:50%;
+text-transform: uppercase;
+text-align: left;
+color: var(--text);
+font-size: 4.5vmin;
+font-style: normal;
+text-shadow: 3px 4px 4px var(--primary);
 }
+@media (max-width: 916px){
+.h1{
+    text-align: center;
+}
+.logo{ 
+}
+}
+
 /*welcome_text_section
 <!--heading2_and_paragraph1_starts-->*/
         .h2 {
