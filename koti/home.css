@@ -113,8 +113,8 @@ text-shadow: 3px 4px 4px var(--primary);
         background-color: rgb(10, 10, 10);
         display: grid;
         place-items: center;
-        border: solid rgba(128, 1, 133, 0.8);
-        box-shadow: 0vmin 0vmin 6vmin rgba(128, 1, 133, 0.5)
+        border: 0.1px solid rgba(128, 1, 133, 0.8);
+        box-shadow: 0vmin 0vmin 6vmin rgba(128, 1, 133, 0.5);
         
         /* border: 5px solid var(--text);
         border-radius: 1.2vmin;
@@ -296,8 +296,8 @@ padding:0.5% 0%;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 1px solid var(--primary);
-    border-radius: 2px;
+    /* border: 0.1px solid rgba(128, 1, 133, 0.8); */
+    box-shadow: 0vmin 0vmin 6vmin rgba(128, 1, 133, 0.5);
     padding: 5px;
     width: fit-content;
     height: fit-content;
@@ -328,6 +328,10 @@ padding:0.5% 0%;
         color: white;
         font-size: 2.7vmin;
         line-height: 1.7;
+    }
+    #kuvakuvakuva {
+        /* border: solid rgba(128, 1, 133, 0.8); */
+        box-shadow: 0vmin 0vmin 6vmin rgba(128, 1, 133, 0.5)
     }
     .card-group {
         
