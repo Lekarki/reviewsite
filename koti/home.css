@@ -32,9 +32,9 @@
 /*upper_belt_logo
 <!--upper_belt_starts-->*/
 .flex-container1 {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-bottom: solid rgba(255, 255, 255, 0.1);
-    box-shadow: 2vmin 2vmin 5vmin rgba(255, 255, 255, 0.1) inset;
+    background-color: rgba(255, 255, 255, 0.02);
+    border-bottom: solid rgba(255, 255, 255, 0.05);
+    box-shadow: 2vmin 2vmin 5vmin rgba(255, 255, 255, 0.07) inset;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
