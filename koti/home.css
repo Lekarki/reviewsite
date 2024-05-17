@@ -32,6 +32,9 @@
 /*upper_belt_logo
 <!--upper_belt_starts-->*/
 .flex-container1 {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-bottom: solid rgba(255, 255, 255, 0.3);
+    box-shadow: 2vmin 2vmin 5vmin rgba(255, 255, 255, 0.1) inset;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -44,6 +47,9 @@ padding: 15px 0px 0px 30px;
 width: 450px ;
 height: 150px;
 }
+#logoimage {
+
+}
 .h1 {
 flex:50%;
 text-transform: uppercase;
@@ -52,6 +58,7 @@ color: var(--text);
 font-size: 4.5vmin;
 font-style: normal;
 text-shadow: 3px 4px 4px var(--primary);
+
 }
 @media (max-width: 916px){
 .h1{
