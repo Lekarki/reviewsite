@@ -158,7 +158,8 @@ text-shadow: 3px 4px 4px var(--primary);
     border-block-color: var(--accent);
     position: relative;
     padding: 1em;
-    
+    opacity: 0.7;
+
 }
 
 @keyframes rotateBorder {
@@ -231,7 +232,19 @@ text-shadow: 3px 4px 4px var(--primary);
     padding: 10px;
     cursor: pointer;
 
+
 }
+
+.close_button:hover {
+    transition: opacity 1s;
+    opacity: 0.7;
+}
+
+.modal_open_button button:hover {
+    transition: opacity 1s;
+    opacity: 1;
+}
+
 /* modal_styles
 <!--modal_js_window_ends-->*/
 
@@ -340,7 +353,7 @@ padding:0.5% 0%;
     width: 50%;
     /* border: 0.1px solid rgba(128, 1, 133, 0.8); */
     box-shadow: 0vmin 0vmin 6vmin rgba(128, 1, 133, 0.5);
-    padding: 5px;
+    padding: none;
     width: fit-content;
     height: fit-content;
       
@@ -348,8 +361,8 @@ padding:0.5% 0%;
 
     .footer_logo:hover {
 
-    box-shadow: 0 0 2px 2px white;
-    transition:0.4s;
+    box-shadow: 0 0 2px 2px var(--text);
+    transition:0.7s;
 
 }
 
