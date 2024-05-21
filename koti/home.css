@@ -176,7 +176,7 @@ text-shadow: 3px 4px 4px var(--primary);
 .modal_open_button button::before {
 
     content: '';
-    position: absolute;
+    position:absolute;
     width: 250px;
     height: 250px;
     border: 10px solid;
@@ -236,12 +236,12 @@ text-shadow: 3px 4px 4px var(--primary);
 }
 
 .close_button:hover {
-    transition: opacity 1s;
+    transition: opacity 300ms;
     opacity: 0.7;
 }
 
 .modal_open_button button:hover {
-    transition: opacity 1s;
+    transition: opacity 300ms;
     opacity: 1;
 }
 
@@ -314,7 +314,7 @@ padding:0.5% 0%;
 
     text-decoration:none;
     color:gray;
-    transition:0.5s;
+    transition:200s;
 
 }
     
