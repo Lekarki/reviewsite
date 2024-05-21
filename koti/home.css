@@ -48,11 +48,12 @@
     flex-direction: row;
     flex-wrap: wrap;
 
+
 }
 
 .logo {
 
-flex: 30%;
+flex: content;
 max-width: 30%;
 /* background-color:rgba(255, 255, 255, 0.4); */
 padding: 15px 0px 0px 30px;
@@ -63,7 +64,8 @@ height: 150px;
 
 .h1 {
 
-flex:50%;
+flex:content;
+width: 50%;
 text-transform: uppercase;
 text-align: left;
 color: var(--text);
@@ -73,11 +75,22 @@ text-shadow: 3px 4px 4px var(--primary);
 
 }
 
+@media (max-width: 1145px) {
+.modal_open_button{
+    display: none;
+}
+}
 @media (max-width: 916px) {
 
 .h1{
     text-align: center;
     }
+
+.logo{
+    flex:auto;
+    position: relative;
+    margin: 0px auto;
+}
 
 }
 
@@ -91,21 +104,16 @@ text-shadow: 3px 4px 4px var(--primary);
 
 }
 
-        .p1 {
+        .p1,
+        .p2 {
 
         color: var(--text);
-        text-align: center;
+        text-align: left;
         padding: 1em;
 
 }
 
-        .p2 {
 
-            color: var(--text);
-            text-align: center;
-            padding: 1em;
-    
-}
 
 
         span {
@@ -143,15 +151,19 @@ text-shadow: 3px 4px 4px var(--primary);
 <!--modal_js_window_starts-->*/
 .modal_open_button {
 
-    display: flex;
-    justify-content: right;
+    margin-top: 30px;
+    margin-left: 15px;
+    flex: content;
+    width: 40vmin;
+    
+    justify-content:center;
     align-items: center;
-    height: 1vh;
+    height: 20vmin;
 }
 
 .modal_open_button button {
 
-    font-size: 32px;
+    font-size: 24px;
     display: grid;
     place-items: center;
     border-inline-color: var(--primary);
@@ -177,8 +189,8 @@ text-shadow: 3px 4px 4px var(--primary);
 
     content: '';
     position:absolute;
-    width: 250px;
-    height: 250px;
+    width: 175px;
+    height: 175px;
     border: 10px solid;
     border-radius:50%;
     border-style:groove;
