@@ -89,9 +89,26 @@
 .logo{
     flex:auto;
     position: relative;
-    margin: 0px auto;
+    margin: auto auto;
 }
 
+.textright {
+        /* background-color: rgba(0, 0, 255, 0.5); */
+            margin: 5% 5%;
+            color: white;
+            font-size: 2.7vmin;
+            line-height: 1.7;
+    }
+}
+
+@media (min-width: 916px){
+    .textright {
+        /* background-color: rgba(0, 0, 255, 0.5); */
+            margin: 5% 15%;
+            color: white;
+            font-size: 2.7vmin;
+            line-height: 1.7;
+        }
 }
 
 /*welcome_text_section
@@ -387,13 +404,7 @@ span {
 
 }
 
-.textright {
-/* background-color: rgba(0, 0, 255, 0.5); */
-    margin: 5% 15%;
-    color: white;
-    font-size: 2.7vmin;
-    line-height: 1.7;
-}
+
 #kuvakuvakuva {
 
     /* border: solid rgba(128, 1, 133, 0.8); */
